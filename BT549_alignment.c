@@ -1,6 +1,5 @@
 // To download off of GCP - 
 //install GSUtil
-  
   conda create --name
   conda activate name
   conda install -c conda-forge gsutil
