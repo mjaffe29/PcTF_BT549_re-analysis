@@ -53,18 +53,16 @@ while IFS=, read -r key value; do picard AddOrReplaceReadGroups INPUT=/home/mjaf
 
 while IFS= read -r line; do bamtools stats -in ${line}.sort.markdup.readgrps.bam; done < files_bam.txt
 
-while IFS= read -r line; do bamtools stats -in ${line}.sort.markdup.readgrps.bam; done < files_bam.txt
-
 **********************************************
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1354587
-Mapped reads:      1354587	(100%)
-Forward strand:    565885	(41.7755%)
-Reverse strand:    788702	(58.2245%)
+Total reads:       5675116
+Mapped reads:      5675116	(100%)
+Forward strand:    2995948	(52.791%)
+Reverse strand:    2679168	(47.209%)
 Failed QC:         0	(0%)
-Duplicates:        462945	(34.1761%)
+Duplicates:        2156585	(38.0007%)
 Paired-end reads:  0	(0%)
 
 
@@ -72,12 +70,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1139518
-Mapped reads:      1139518	(100%)
-Forward strand:    528778	(46.4037%)
-Reverse strand:    610740	(53.5963%)
+Total reads:       5151483
+Mapped reads:      5151483	(100%)
+Forward strand:    2442195	(47.4076%)
+Reverse strand:    2709288	(52.5924%)
 Failed QC:         0	(0%)
-Duplicates:        362528	(31.8142%)
+Duplicates:        2083692	(40.4484%)
 Paired-end reads:  0	(0%)
 
 
@@ -85,12 +83,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1260899
-Mapped reads:      1260899	(100%)
-Forward strand:    534568	(42.3958%)
-Reverse strand:    726331	(57.6042%)
+Total reads:       5219779
+Mapped reads:      5219779	(100%)
+Forward strand:    2750001	(52.6842%)
+Reverse strand:    2469778	(47.3158%)
 Failed QC:         0	(0%)
-Duplicates:        422616	(33.517%)
+Duplicates:        1952205	(37.4001%)
 Paired-end reads:  0	(0%)
 
 
@@ -98,12 +96,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       991385
-Mapped reads:      991385	(100%)
-Forward strand:    461605	(46.5616%)
-Reverse strand:    529780	(53.4384%)
+Total reads:       4440103
+Mapped reads:      4440103	(100%)
+Forward strand:    2101450	(47.3289%)
+Reverse strand:    2338653	(52.6711%)
 Failed QC:         0	(0%)
-Duplicates:        305038	(30.7689%)
+Duplicates:        1743867	(39.2754%)
 Paired-end reads:  0	(0%)
 
 
@@ -111,12 +109,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1278209
-Mapped reads:      1278209	(100%)
-Forward strand:    539872	(42.2366%)
-Reverse strand:    738337	(57.7634%)
+Total reads:       5443788
+Mapped reads:      5443788	(100%)
+Forward strand:    2773739	(50.9524%)
+Reverse strand:    2670049	(49.0476%)
 Failed QC:         0	(0%)
-Duplicates:        460370	(36.0168%)
+Duplicates:        2358380	(43.3224%)
 Paired-end reads:  0	(0%)
 
 
@@ -124,12 +122,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1132373
-Mapped reads:      1132373	(100%)
-Forward strand:    514413	(45.4279%)
-Reverse strand:    617960	(54.5721%)
+Total reads:       5136353
+Mapped reads:      5136353	(100%)
+Forward strand:    2404418	(46.8118%)
+Reverse strand:    2731935	(53.1882%)
 Failed QC:         0	(0%)
-Duplicates:        393241	(34.7272%)
+Duplicates:        2343553	(45.6268%)
 Paired-end reads:  0	(0%)
 
 
@@ -137,12 +135,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1196935
-Mapped reads:      1196935	(100%)
-Forward strand:    510311	(42.6348%)
-Reverse strand:    686624	(57.3652%)
+Total reads:       5032248
+Mapped reads:      5032248	(100%)
+Forward strand:    2572528	(51.1209%)
+Reverse strand:    2459720	(48.8792%)
 Failed QC:         0	(0%)
-Duplicates:        426089	(35.5983%)
+Duplicates:        2138554	(42.497%)
 Paired-end reads:  0	(0%)
 
 
@@ -150,12 +148,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       980074
-Mapped reads:      980074	(100%)
-Forward strand:    446806	(45.589%)
-Reverse strand:    533268	(54.411%)
+Total reads:       4391223
+Mapped reads:      4391223	(100%)
+Forward strand:    2052671	(46.7449%)
+Reverse strand:    2338552	(53.2551%)
 Failed QC:         0	(0%)
-Duplicates:        330069	(33.678%)
+Duplicates:        1947468	(44.3491%)
 Paired-end reads:  0	(0%)
 
 
@@ -163,12 +161,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1206241
-Mapped reads:      1206241	(100%)
-Forward strand:    509132	(42.2081%)
-Reverse strand:    697109	(57.7919%)
+Total reads:       5518058
+Mapped reads:      5518058	(100%)
+Forward strand:    2710771	(49.1255%)
+Reverse strand:    2807287	(50.8745%)
 Failed QC:         0	(0%)
-Duplicates:        436171	(36.1595%)
+Duplicates:        2394938	(43.4018%)
 Paired-end reads:  0	(0%)
 
 
@@ -176,12 +174,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1116698
-Mapped reads:      1116698	(100%)
-Forward strand:    498754	(44.6633%)
-Reverse strand:    617944	(55.3367%)
+Total reads:       5338254
+Mapped reads:      5338254	(100%)
+Forward strand:    2471951	(46.3064%)
+Reverse strand:    2866303	(53.6936%)
 Failed QC:         0	(0%)
-Duplicates:        392002	(35.1037%)
+Duplicates:        2400296	(44.9641%)
 Paired-end reads:  0	(0%)
 
 
@@ -189,12 +187,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1119372
-Mapped reads:      1119372	(100%)
-Forward strand:    475972	(42.5213%)
-Reverse strand:    643400	(57.4787%)
+Total reads:       5066974
+Mapped reads:      5066974	(100%)
+Forward strand:    2485148	(49.046%)
+Reverse strand:    2581826	(50.954%)
 Failed QC:         0	(0%)
-Duplicates:        399301	(35.6719%)
+Duplicates:        2165701	(42.7415%)
 Paired-end reads:  0	(0%)
 
 
@@ -202,12 +200,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       964572
-Mapped reads:      964572	(100%)
-Forward strand:    431374	(44.7218%)
-Reverse strand:    533198	(55.2782%)
+Total reads:       4558267
+Mapped reads:      4558267	(100%)
+Forward strand:    2108192	(46.2499%)
+Reverse strand:    2450075	(53.7501%)
 Failed QC:         0	(0%)
-Duplicates:        330079	(34.2203%)
+Duplicates:        1992762	(43.7175%)
 Paired-end reads:  0	(0%)
 
 
@@ -215,12 +213,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1194278
-Mapped reads:      1194278	(100%)
-Forward strand:    479058	(40.1128%)
-Reverse strand:    715220	(59.8872%)
+Total reads:       5285450
+Mapped reads:      5285450	(100%)
+Forward strand:    2763345	(52.2821%)
+Reverse strand:    2522105	(47.7179%)
 Failed QC:         0	(0%)
-Duplicates:        443943	(37.1725%)
+Duplicates:        2232551	(42.2396%)
 Paired-end reads:  0	(0%)
 
 
@@ -228,12 +226,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       977398
-Mapped reads:      977398	(100%)
-Forward strand:    439083	(44.9237%)
-Reverse strand:    538315	(55.0763%)
+Total reads:       4746208
+Mapped reads:      4746208	(100%)
+Forward strand:    2207598	(46.5129%)
+Reverse strand:    2538610	(53.4871%)
 Failed QC:         0	(0%)
-Duplicates:        342134	(35.0046%)
+Duplicates:        2149519	(45.2892%)
 Paired-end reads:  0	(0%)
 
 
@@ -241,12 +239,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1111736
-Mapped reads:      1111736	(100%)
-Forward strand:    448247	(40.3196%)
-Reverse strand:    663489	(59.6804%)
+Total reads:       4803351
+Mapped reads:      4803351	(100%)
+Forward strand:    2534864	(52.7728%)
+Reverse strand:    2268487	(47.2272%)
 Failed QC:         0	(0%)
-Duplicates:        407836	(36.6846%)
+Duplicates:        1972684	(41.0689%)
 Paired-end reads:  0	(0%)
 
 
@@ -254,12 +252,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       831954
-Mapped reads:      831954	(100%)
-Forward strand:    374046	(44.9599%)
-Reverse strand:    457908	(55.0401%)
+Total reads:       3975986
+Mapped reads:      3975986	(100%)
+Forward strand:    1847177	(46.4583%)
+Reverse strand:    2128809	(53.5417%)
 Failed QC:         0	(0%)
-Duplicates:        284323	(34.1753%)
+Duplicates:        1738627	(43.7282%)
 Paired-end reads:  0	(0%)
 
 
@@ -267,12 +265,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1006612
-Mapped reads:      1006612	(100%)
-Forward strand:    414237	(41.1516%)
-Reverse strand:    592375	(58.8484%)
+Total reads:       4755031
+Mapped reads:      4755031	(100%)
+Forward strand:    2401664	(50.5079%)
+Reverse strand:    2353367	(49.4921%)
 Failed QC:         0	(0%)
-Duplicates:        359912	(35.7548%)
+Duplicates:        2005999	(42.1869%)
 Paired-end reads:  0	(0%)
 
 
@@ -280,12 +278,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       875022
-Mapped reads:      875022	(100%)
-Forward strand:    390179	(44.5908%)
-Reverse strand:    484843	(55.4092%)
+Total reads:       4459850
+Mapped reads:      4459850	(100%)
+Forward strand:    2074702	(46.5195%)
+Reverse strand:    2385148	(53.4805%)
 Failed QC:         0	(0%)
-Duplicates:        299504	(34.2282%)
+Duplicates:        1975941	(44.3051%)
 Paired-end reads:  0	(0%)
 
 
@@ -293,12 +291,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       939220
-Mapped reads:      939220	(100%)
-Forward strand:    389531	(41.4739%)
-Reverse strand:    549689	(58.5261%)
+Total reads:       4370986
+Mapped reads:      4370986	(100%)
+Forward strand:    2212717	(50.6228%)
+Reverse strand:    2158269	(49.3772%)
 Failed QC:         0	(0%)
-Duplicates:        332077	(35.3567%)
+Duplicates:        1812594	(41.4688%)
 Paired-end reads:  0	(0%)
 
 
@@ -306,12 +304,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       757325
-Mapped reads:      757325	(100%)
-Forward strand:    338610	(44.7113%)
-Reverse strand:    418715	(55.2887%)
+Total reads:       3804521
+Mapped reads:      3804521	(100%)
+Forward strand:    1767113	(46.4477%)
+Reverse strand:    2037408	(53.5523%)
 Failed QC:         0	(0%)
-Duplicates:        252003	(33.2754%)
+Duplicates:        1640172	(43.1111%)
 Paired-end reads:  0	(0%)
 
 
@@ -319,12 +317,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1052253
-Mapped reads:      1052253	(100%)
-Forward strand:    424198	(40.3133%)
-Reverse strand:    628055	(59.6867%)
+Total reads:       4932904
+Mapped reads:      4932904	(100%)
+Forward strand:    2542674	(51.5452%)
+Reverse strand:    2390230	(48.4548%)
 Failed QC:         0	(0%)
-Duplicates:        370974	(35.2552%)
+Duplicates:        1935838	(39.2434%)
 Paired-end reads:  0	(0%)
 
 
@@ -332,12 +330,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       890735
-Mapped reads:      890735	(100%)
-Forward strand:    396800	(44.5475%)
-Reverse strand:    493935	(55.4525%)
+Total reads:       4577799
+Mapped reads:      4577799	(100%)
+Forward strand:    2138071	(46.7052%)
+Reverse strand:    2439728	(53.2948%)
 Failed QC:         0	(0%)
-Duplicates:        296276	(33.262%)
+Duplicates:        1899807	(41.5004%)
 Paired-end reads:  0	(0%)
 
 
@@ -345,12 +343,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       979715
-Mapped reads:      979715	(100%)
-Forward strand:    400529	(40.8822%)
-Reverse strand:    579186	(59.1178%)
+Total reads:       4522657
+Mapped reads:      4522657	(100%)
+Forward strand:    2329863	(51.5154%)
+Reverse strand:    2192794	(48.4846%)
 Failed QC:         0	(0%)
-Duplicates:        341275	(34.8341%)
+Duplicates:        1746493	(38.6165%)
 Paired-end reads:  0	(0%)
 
 
@@ -358,12 +356,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       774835
-Mapped reads:      774835	(100%)
-Forward strand:    345225	(44.5546%)
-Reverse strand:    429610	(55.4454%)
+Total reads:       3917475
+Mapped reads:      3917475	(100%)
+Forward strand:    1829673	(46.7054%)
+Reverse strand:    2087802	(53.2946%)
 Failed QC:         0	(0%)
-Duplicates:        250783	(32.366%)
+Duplicates:        1581625	(40.3736%)
 Paired-end reads:  0	(0%)
 
 
@@ -371,12 +369,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1232383
-Mapped reads:      1232383	(100%)
-Forward strand:    471527	(38.2614%)
-Reverse strand:    760856	(61.7386%)
+Total reads:       5347042
+Mapped reads:      5347042	(100%)
+Forward strand:    2912660	(54.4724%)
+Reverse strand:    2434382	(45.5276%)
 Failed QC:         0	(0%)
-Duplicates:        459709	(37.3024%)
+Duplicates:        2278948	(42.6207%)
 Paired-end reads:  0	(0%)
 
 
@@ -384,12 +382,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       938704
-Mapped reads:      938704	(100%)
-Forward strand:    416234	(44.3413%)
-Reverse strand:    522470	(55.6586%)
+Total reads:       4647491
+Mapped reads:      4647491	(100%)
+Forward strand:    2175420	(46.8085%)
+Reverse strand:    2472071	(53.1915%)
 Failed QC:         0	(0%)
-Duplicates:        325252	(34.649%)
+Duplicates:        2186580	(47.0486%)
 Paired-end reads:  0	(0%)
 
 
@@ -397,12 +395,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1156879
-Mapped reads:      1156879	(100%)
-Forward strand:    451671	(39.0422%)
-Reverse strand:    705208	(60.9578%)
+Total reads:       4913847
+Mapped reads:      4913847	(100%)
+Forward strand:    2681029	(54.5607%)
+Reverse strand:    2232818	(45.4393%)
 Failed QC:         0	(0%)
-Duplicates:        426236	(36.8436%)
+Duplicates:        2057680	(41.8751%)
 Paired-end reads:  0	(0%)
 
 
@@ -410,12 +408,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       815989
-Mapped reads:      815989	(100%)
-Forward strand:    363782	(44.5817%)
-Reverse strand:    452207	(55.4183%)
+Total reads:       3965022
+Mapped reads:      3965022	(100%)
+Forward strand:    1853220	(46.7392%)
+Reverse strand:    2111802	(53.2608%)
 Failed QC:         0	(0%)
-Duplicates:        274356	(33.6225%)
+Duplicates:        1813785	(45.7446%)
 Paired-end reads:  0	(0%)
 
 
@@ -423,12 +421,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       1046916
-Mapped reads:      1046916	(100%)
-Forward strand:    335847	(32.0797%)
-Reverse strand:    711069	(67.9203%)
+Total reads:       3864015
+Mapped reads:      3864015	(100%)
+Forward strand:    2515545	(65.1018%)
+Reverse strand:    1348470	(34.8982%)
 Failed QC:         0	(0%)
-Duplicates:        409580	(39.1225%)
+Duplicates:        1282644	(33.1946%)
 Paired-end reads:  0	(0%)
 
 
@@ -436,12 +434,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       549644
-Mapped reads:      549644	(100%)
-Forward strand:    244622	(44.5055%)
-Reverse strand:    305022	(55.4945%)
+Total reads:       2634111
+Mapped reads:      2634111	(100%)
+Forward strand:    1270395	(48.2286%)
+Reverse strand:    1363716	(51.7714%)
 Failed QC:         0	(0%)
-Duplicates:        181919	(33.0976%)
+Duplicates:        1090882	(41.4137%)
 Paired-end reads:  0	(0%)
 
 
@@ -449,12 +447,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       967928
-Mapped reads:      967928	(100%)
-Forward strand:    327517	(33.8369%)
-Reverse strand:    640411	(66.1631%)
+Total reads:       3505970
+Mapped reads:      3505970	(100%)
+Forward strand:    2271923	(64.8016%)
+Reverse strand:    1234047	(35.1984%)
 Failed QC:         0	(0%)
-Duplicates:        372792	(38.5144%)
+Duplicates:        1152709	(32.8785%)
 Paired-end reads:  0	(0%)
 
 
@@ -462,16 +460,15 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       483489
-Mapped reads:      483489	(100%)
-Forward strand:    216712	(44.8225%)
-Reverse strand:    266777	(55.1775%)
+Total reads:       2264910
+Mapped reads:      2264910	(100%)
+Forward strand:    1090826	(48.162%)
+Reverse strand:    1174084	(51.838%)
 Failed QC:         0	(0%)
-Duplicates:        155465	(32.1548%)
+Duplicates:        908251	(40.101%)
 Paired-end reads:  0	(0%)
 
-(py3.7) [mjaffe7@gpu1 7_readgroups]$ ^C
-
+(py3.7) [mjaffe7@gpu1 7_readgroups]$ 
 
 while IFS=, read -r f1 f2 f3 f4 f5; do bamtools merge -in /home/mjaffe7/Desktop/BT549/7_readgroups/${f1}.sort.markdup.readgrps.bam -in /home/mjaffe7/Desktop/BT549/7_readgroups/${f2}.sort.markdup.readgrps.bam -in /home/mjaffe7/Desktop/BT549/7_readgroups/${f3}.sort.markdup.readgrps.bam -in /home/mjaffe7/Desktop/BT549/7_readgroups/${f4}.sort.markdup.readgrps.bam -out ${f5}.sort.markdup.readgrps.merge.bam; done < files_bam_2.txt
 
@@ -479,18 +476,16 @@ while IFS= read -r line; do bamtools index -in ${line}.sort.markdup.readgrps.mer
 
 while IFS= read -r line; do bamtools stats -in ${line}.sort.markdup.readgrps.merge.bam; done < files_bam_3.txt
 
-while IFS= read -r line; do bamtools stats -in ${line}.sort.markdup.readgrps.merge.bam; done < files_bam_3.txt
-
 **********************************************
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       4746389
-Mapped reads:      4746389	(100%)
-Forward strand:    2090836	(44.0511%)
-Reverse strand:    2655553	(55.9489%)
+Total reads:       20486481
+Mapped reads:      20486481	(100%)
+Forward strand:    10289594	(50.2263%)
+Reverse strand:    10196887	(49.7737%)
 Failed QC:         0	(0%)
-Duplicates:        1553127	(32.7223%)
+Duplicates:        7936349	(38.7394%)
 Paired-end reads:  0	(0%)
 
 
@@ -498,12 +493,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       4587591
-Mapped reads:      4587591	(100%)
-Forward strand:    2011402	(43.8444%)
-Reverse strand:    2576189	(56.1556%)
+Total reads:       20003612
+Mapped reads:      20003612	(100%)
+Forward strand:    9803356	(49.0079%)
+Reverse strand:    10200256	(50.9921%)
 Failed QC:         0	(0%)
-Duplicates:        1609769	(35.0896%)
+Duplicates:        8787955	(43.9318%)
 Paired-end reads:  0	(0%)
 
 
@@ -511,12 +506,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       4406883
-Mapped reads:      4406883	(100%)
-Forward strand:    1915232	(43.46%)
-Reverse strand:    2491651	(56.54%)
+Total reads:       20481553
+Mapped reads:      20481553	(100%)
+Forward strand:    9776062	(47.7311%)
+Reverse strand:    10705491	(52.2689%)
 Failed QC:         0	(0%)
-Duplicates:        1557553	(35.3436%)
+Duplicates:        8953697	(43.7159%)
 Paired-end reads:  0	(0%)
 
 
@@ -524,12 +519,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       4115366
-Mapped reads:      4115366	(100%)
-Forward strand:    1740434	(42.2911%)
-Reverse strand:    2374932	(57.7089%)
+Total reads:       18810995
+Mapped reads:      18810995	(100%)
+Forward strand:    9352984	(49.7208%)
+Reverse strand:    9458011	(50.2792%)
 Failed QC:         0	(0%)
-Duplicates:        1478236	(35.9199%)
+Duplicates:        8093381	(43.0247%)
 Paired-end reads:  0	(0%)
 
 
@@ -537,12 +532,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       3578179
-Mapped reads:      3578179	(100%)
-Forward strand:    1532557	(42.8306%)
-Reverse strand:    2045622	(57.1694%)
+Total reads:       17390388
+Mapped reads:      17390388	(100%)
+Forward strand:    8456196	(48.6257%)
+Reverse strand:    8934192	(51.3743%)
 Failed QC:         0	(0%)
-Duplicates:        1243496	(34.7522%)
+Duplicates:        7434706	(42.7518%)
 Paired-end reads:  0	(0%)
 
 
@@ -550,12 +545,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       3697538
-Mapped reads:      3697538	(100%)
-Forward strand:    1566752	(42.3728%)
-Reverse strand:    2130786	(57.6272%)
+Total reads:       17950835
+Mapped reads:      17950835	(100%)
+Forward strand:    8840281	(49.2472%)
+Reverse strand:    9110554	(50.7528%)
 Failed QC:         0	(0%)
-Duplicates:        1259308	(34.058%)
+Duplicates:        7163763	(39.9077%)
 Paired-end reads:  0	(0%)
 
 
@@ -563,12 +558,12 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       4143955
-Mapped reads:      4143955	(100%)
-Forward strand:    1703214	(41.1012%)
-Reverse strand:    2440741	(58.8988%)
+Total reads:       18873402
+Mapped reads:      18873402	(100%)
+Forward strand:    9622329	(50.9835%)
+Reverse strand:    9251073	(49.0165%)
 Failed QC:         0	(0%)
-Duplicates:        1485553	(35.8487%)
+Duplicates:        8336993	(44.1732%)
 Paired-end reads:  0	(0%)
 
 
@@ -576,12 +571,10 @@ Paired-end reads:  0	(0%)
 Stats for BAM file(s): 
 **********************************************
 
-Total reads:       3047977
-Mapped reads:      3047977	(100%)
-Forward strand:    1124698	(36.8998%)
-Reverse strand:    1923279	(63.1002%)
+Total reads:       12269006
+Mapped reads:      12269006	(100%)
+Forward strand:    7148689	(58.2662%)
+Reverse strand:    5120317	(41.7338%)
 Failed QC:         0	(0%)
-Duplicates:        1119756	(36.7377%)
+Duplicates:        4434486	(36.1438%)
 Paired-end reads:  0	(0%)
-
-(py3.7) [mjaffe7@gpu1 8_mergedBAM]$ 
